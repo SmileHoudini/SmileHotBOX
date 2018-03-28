@@ -17,11 +17,13 @@ Support
 You can tell me your needs by mail, including your problems,Telephone +8618810865732
 Because my personal thoughts are limited, I hope you can give me a better idea of your mail. I will update it to GitHub for the first time. I am looking forward to receiving your mail, any suggestion, email:change52092@yahoo.com.
 This is a good preview of the function
-HoudiniHotBox17.0\doc\SmileHotBoxShowReel.mp4
+Gradually update the use of video tutorials，It will be published in vimeo  this is show reel https://vimeo.com/216009486
+
 
 Known Issues
 
-Ninety percent of the functionality you can use across the platform,Some functions only support windows, but TD developers are easy to correct. Some functions are too large dependence , Rigid tools rely on 40 more complex assets. They belong to the content of tuition tutorial,He spent a great deal of blood,I'm sorry it's need pay.Please see details SmileFX  https://weidian.com/s/1225774756?ifr=shopdetail&wfr=c
+Ninety percent of the functionality you can use across the platform,Some functions only support windows, but TD developers are easy to correct. Some functions are too large dependence ,Pay attention to the following link to get . SmileFX   https://weidian.com/s/1225774756?ifr=shopdetail&wfr=c
+The icon, please do not use it for other commercial uses,thanks to sidefx for providing icons test, please contact sidefx.com to buy a positive version,If there is a copyright infringement, please contact me and I will delete it immediately.thanks Sidefx.Email:change52092@yahoo.com
 
 Release Notes
 2018/3/27 smileHotBox 17.0   Initial relea
