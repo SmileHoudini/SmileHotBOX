@@ -23,7 +23,7 @@ Gradually update the use of video tutorials，It will be published in vimeo  th
 Known Issues
 
 Ninety percent of the functionality you can use across the platform,Some functions only support windows, but TD developers are easy to correct. Some functions are too large dependence ,Pay attention to the following link to get . SmileFX   https://weidian.com/s/1225774756?ifr=shopdetail&wfr=c
-The icon, please do not use it for other commercial uses,thanks to sidefx for providing icons test, please contact sidefx.com to buy a positive version,If there is a copyright infringement, please contact me and I will delete it immediately.thanks Sidefx.Email:change52092@yahoo.com
+The icon, please do not use it for other commercial uses,thanks to sidefx for providing icons test,If there is a copyright infringement, please contact me and I will delete it immediately.thanks Sidefx.    Email:change52092@yahoo.com
 
 Release Notes
 2018/3/27 smileHotBox 17.0   Initial relea
