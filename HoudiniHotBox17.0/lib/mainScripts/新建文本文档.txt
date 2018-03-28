@@ -1,0 +1,2 @@
+cd C:\Python27\PyInstaller-3.0
+"C:\Program Files\Side Effects Software\Houdini 15.0.416\python27\python.exe" pyinstaller.py -F showrenderUI.py.py

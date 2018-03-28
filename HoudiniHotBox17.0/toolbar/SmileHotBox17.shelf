@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shelfDocument>
+  <!-- This file contains definitions of shelves, toolbars, and tools.
+ It should not be hand-edited when it is being used by the application.
+ Note, that two definitions of the same element are not allowed in
+ a single file. -->
+
+  <toolshelf name="SmileHotBox17" label="SmileHotBox17">
+    <memberTool name="SmileHotBox17"/>
+  </toolshelf>
+
+  <tool name="SmileHotBox17" label="SmileHotBox17" icon="SOP_starburst">
+    <script scriptType="python"><![CDATA[import os
+sysPath = os.getenv('SMILEHOTBOX')+"\\Uilib"
+import sys
+sys.path.append(sysPath)
+import hotBox_17_manUi
+reload(hotBox_17_manUi)
+]]></script>
+  </tool>
+</shelfDocument>

@@ -1,0 +1,6 @@
+insideShapeRs=100,300
+outsideShapeRs=330,450
+midsideShapeRs=300,310
+inForntSize=10
+outForntSize=8
+childPerAngle =20
