@@ -3,8 +3,8 @@ import os
 class getColor:
     def __init__(self):
         self.classNmae1 ="publicCountrl"
-        self.s_path = os.getenv('SMILEHOTBOX')+"\\pref"
-        self.prefPath = self.s_path +"\\"+self.classNmae1+"\\color\\"
+        self.s_path = os.getenv('SMILEHOTBOX')+r"/pref"
+        self.prefPath = self.s_path +r"/"+self.classNmae1+r"/color/"
         self.fatherBPath = self.prefPath+"color.dat"
         self.sourceString = ""
         self.setString()

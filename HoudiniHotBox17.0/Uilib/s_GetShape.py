@@ -3,8 +3,8 @@ import os
 class getShape:
     def __init__(self):
         self.classNmae1 ="publicCountrl"
-        self.s_path = os.getenv('SMILEHOTBOX')+"\\pref"
-        self.prefPath = self.s_path+"\\"+self.classNmae1+"\\shape\\"
+        self.s_path = os.getenv('SMILEHOTBOX')+r"/pref"
+        self.prefPath = self.s_path+r"/"+self.classNmae1+r"/shape/"
         self.fatherBPath = self.prefPath+"shape.dat"
         self.sourceString = ""
         self.setString()

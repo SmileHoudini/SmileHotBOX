@@ -11,7 +11,7 @@
 
   <tool name="SmileHotBox17" label="SmileHotBox17" icon="SOP_starburst">
     <script scriptType="python"><![CDATA[import os
-sysPath = os.getenv('SMILEHOTBOX')+"\\Uilib"
+sysPath = os.getenv('SMILEHOTBOX')+r"/Uilib"
 import sys
 sys.path.append(sysPath)
 import hotBox_17_manUi

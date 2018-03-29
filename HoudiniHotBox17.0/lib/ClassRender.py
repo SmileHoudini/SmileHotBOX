@@ -33,7 +33,7 @@ def writeBat(divide):
     totalFrame =(end-start)
     once= math.ceil(totalFrame/divide)
     sourceString2 =[]
-    fileName2 = scriptPath+"\\"+"run.bat"
+    fileName2 = scriptPath+r"/"+"run.bat"
     for i in range(divide):
         perStart = (i*once)+start
         perEnd = perStart+once-1
@@ -43,14 +43,14 @@ def writeBat(divide):
             perEnd =end    
         print  perStart ,"  ",perEnd
         version = hou.applicationVersion()
-        fileName =  scriptPath+"\\"+"renderList"+str(i)+".bat"
+        fileName =  scriptPath+r"/"+"renderList"+str(i)+".bat"
         runPath = str(version[0])+"."+str(version[1])+"."+str(version[2])
-        sourceString =''' "C:\\Program Files\\Side Effects Software\\Houdini '''+runPath+'''\\bin\\hython2.7.exe" "C:\\Program Files\\Side Effects Software\\Houdini '''+runPath+'''\\bin\\hrender.py" -e -f ''' +  str(perStart) +" "+ str(perEnd) +" -d " +renderPath+" "+hipFile +" && exit [/b] [ExitCode]"
+        sourceString =''' r"C:/Program Files/Side Effects Software/Houdini '''+runPath+'''r/bin/hython2.7.exe" r"C:/Program Files/Side Effects Software/Houdini '''+runPath+'''r/bin/hrender.py" -e -f ''' +  str(perStart) +" "+ str(perEnd) +" -d " +renderPath+" "+hipFile +" && exit [/b] [ExitCode]"
         fl=open(fileName, 'w')
         fl.write(sourceString )
         fl.write("\n")      
         fl.close()
-        sourceString2.append("start "+ scriptPath+"\\"+"renderList"+str(i)+".bat" )
+        sourceString2.append("start "+ scriptPath+r"/"+"renderList"+str(i)+".bat" )
         if(perEnd ==end):
             break
     fl=open(fileName2, 'w')

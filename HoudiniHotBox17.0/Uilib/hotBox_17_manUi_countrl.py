@@ -2,9 +2,9 @@ import hou
 import os
 sysPath = os.getenv('SMILEHOTBOX')
 #os.environ["SMILEHOTBOX"] =sysPath
-LibPath =sysPath+"\\Uilib"
-LibPath2 =sysPath+"\\lib"
-WritePrefPath =  sysPath+"\\pref\\"
+LibPath =sysPath+r"/Uilib"
+LibPath2 =sysPath+r"/lib"
+WritePrefPath =  sysPath+r"/pref/"
 import sys
 sys.path.append(sysPath)
 sys.path.append(LibPath)
@@ -472,8 +472,8 @@ class Example(QtWidgets.QWidget):
         #self.inSelectIndexArr   =[]
         #self.outSelectIndexArr  =[]
         #data file Path
-        fileDataPath =WritePrefPath +nodeClass+"\\button\\"+"button_"+str(self.inSelectIndexArr[-1]) +".data"
-        fileFatherButtonNumPath = WritePrefPath +nodeClass+"\\button\\"+"fatherButtonNum.dat"
+        fileDataPath =WritePrefPath +nodeClass+r"/button/"+"button_"+str(self.inSelectIndexArr[-1]) +".data"
+        fileFatherButtonNumPath = WritePrefPath +nodeClass+r"/button/"+"fatherButtonNum.dat"
         f1 = open(fileDataPath,"r")
         tempArr = f1.readlines()
         if  len(tempArr)< 30:

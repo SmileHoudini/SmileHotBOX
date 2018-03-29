@@ -3,8 +3,8 @@ import os
 class getButton:
     def __init__(self,className):
         self.classNmae1 =className
-        self.s_path = os.getenv('SMILEHOTBOX')+"\\pref"
-        self.prefPath = self.s_path+"\\"+self.classNmae1+"\\button\\"
+        self.s_path = os.getenv('SMILEHOTBOX')+r"/pref"
+        self.prefPath = self.s_path+r"/"+self.classNmae1+r"/button/"
         self.fatherBPath = self.prefPath+"fatherButtonNum.dat"
         self.fatherButtonNum =5
         self.setFatherButtonNum()

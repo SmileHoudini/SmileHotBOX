@@ -3,8 +3,8 @@ import os
 sysPath = os.getenv('SMILEHOTBOX')
 #sysPath = r"C:\PythonLibs\HoudiniHotBox17.0"
 #os.environ["SMILEHOTBOX"] =sysPath
-LibPath =sysPath+"\\Uilib"
-LibPath2 =sysPath+"\\lib"
+LibPath =sysPath+r"/Uilib"
+LibPath2 =sysPath+r"/lib"
 import sys
 sys.path.append(sysPath)
 sys.path.append(LibPath)
