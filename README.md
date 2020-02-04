@@ -7,9 +7,9 @@ This is an open source framework for load Houdini tools,you can quickly customiz
 
 Written in a cross platform use python,Here is the way to install windows7+, the same method of Linux and OS
 
-1,Copy  INSTALLPATH/HoudiniHotBox17.0/houdini.env file to  C:\Users\Administrator\Documents\houdini16.0  and open the houdini.env ,Modifying the environment variable corresponding to your path   SMILEHOTBOX = C:/hotboxtest/HoudiniHotBox17.0  
+* 1,Copy  INSTALLPATH/HoudiniHotBox17.0/houdini.env file to  C:\Users\Administrator\Documents\houdini16.0  and open the houdini.env ,Modifying the environment variable corresponding to your path   SMILEHOTBOX = C:/hotboxtest/HoudiniHotBox17.0  
 
-2,Copy  HoudiniHotBox17.0\toolbar\SmileHotBox17.shelf file to C:\Users\Administrator\Documents\houdini16.0\toolbar
+* 2,Copy  HoudiniHotBox17.0\toolbar\SmileHotBox17.shelf file to C:\Users\Administrator\Documents\houdini16.0\toolbar
 Set over and enjoy it
 
 ## Support
