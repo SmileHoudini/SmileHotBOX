@@ -3,7 +3,7 @@
 
 This is an open source framework for load Houdini tools,you can quickly customize the tools and install them on the Interface.It is very meaningful to help you simplify the complex operation of common use,They have used more than a year, good improvement of their own operation, so the source code for everyone to share.
 
-## install
+## Install
 
 Written in a cross platform use python,Here is the way to install windows7+, the same method of Linux and OS
 
